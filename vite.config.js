@@ -5,10 +5,12 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: process.env.PORT || 3000,
-    host: true
+    host: true,
+    allowedHosts: ['medicalplus-botica.onrender.com']
   },
   preview: {
     port: process.env.PORT || 3000,
-    host: true
+    host: true,
+    allowedHosts: ['medicalplus-botica.onrender.com']
   }
 })
