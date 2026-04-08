@@ -16,7 +16,7 @@ export default function Head() {
         {/* BRAND */}
         <a href="/panelprincipal" className="brand-link" aria-label="MedicalPlus Botica - Inicio">
           <img
-            src="/logo-oscuro.jpg"  
+            src="/Img/logo-oscuro.jpg"  
             className="brand-logo"
           />
         </a>
