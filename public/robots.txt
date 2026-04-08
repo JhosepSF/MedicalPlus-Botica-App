@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: 
+
+Sitemap: https://medicalplus-botica.onrender.com/sitemap.xml
+
+# Directrices específicas para Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1

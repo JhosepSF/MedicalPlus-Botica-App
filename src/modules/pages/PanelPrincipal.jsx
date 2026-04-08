@@ -12,8 +12,8 @@ import "../../styles/Panel.css";
 const catalogo = [
   {
     id: "materiales-laboratorio",
-    titulo: "Material para laboratorio",
-    descripcion: "Cristaleria y consumibles para procedimientos y analisis de laboratorio.",
+    titulo: "Material para laboratorio clínico",
+    descripcion: "Cristalería y consumibles de calidad para laboratorio clínico: matraces, fiolas, tubos, pipetas y más para análisis y procedimientos en Tarapoto.",
     folder: "material-labo",
     productos: [
       { id: 1, nombre: "Matraz", archivo: "matraz.jpg" },
@@ -27,8 +27,8 @@ const catalogo = [
   },
   {
     id: "equipo-medico",
-    titulo: "Equipos médico",
-    descripcion: "Instrumentos de diagnostico, monitoreo y apoyo para atencion clinica.",
+    titulo: "Equipos médicos de diagnóstico",
+    descripcion: "Equipos médicos profesionales para clínicas y consultorios: tensiómetros, oxímetros, glucómetros, nebulizadores y más instrumentos de diagnóstico en Tarapoto.",
     folder: "equipo-medico",
     productos: [
       { id: 8, nombre: "Camilla ginecológica", archivo: "camilla-ginecologica.png" },
@@ -44,8 +44,8 @@ const catalogo = [
   },
   {
     id: "mobiliario-medico",
-    titulo: "Mobiliario médico",
-    descripcion: "Soluciones de mobiliario para consultorios, clinicas y areas de atencion.",
+    titulo: "Mobiliario médico para consultorios",
+    descripcion: "Mobiliario clínico profesional para consultorios y clínicas: camillas, vitrina, lámparas médicas y sillas de análisis en Tarapoto.",
     folder: "mobiliario",
     productos: [
       { id: 17, nombre: "Taburete silla médica", archivo: "Taburete_silla_médica.jpg" },
@@ -60,8 +60,8 @@ const catalogo = [
   },
   {
     id: "ortopedia",
-    titulo: "Ortopedia",
-    descripcion: "Ayudas de movilidad, soporte y recuperacion para uso medico y domiciliario.",
+    titulo: "Equipos de ortopedia y movilidad",
+    descripcion: "Productos de ortopedia y ayudas de movilidad: sillas de ruedas, muletas, andadores, bastones y más para clínicas y uso domiciliario en Tarapoto.",
     folder: "ortopedia",
     productos: [
       { id: 25, nombre: "Sillas de ruedas", archivo: "silla_ruedas.jpg" },
@@ -142,10 +142,10 @@ export function PanelPrincipal() {
         <section className="hero">
           <div className="app-container hero-inner">
             <div className="hero-copy">
-              <h1>Catálogo de equipos, mobiliario y suministros médicos</h1>
+              <h1>Equipos y suministros médicos en Tarapoto - MedicalPlus Botica</h1>
               <p>
-                MedicalPlus Botica pone a disposición productos para laboratorio, consultorio,
-                ortopedia y atención clínica al alcance de su bolsillo.
+                MedicalPlus Botica, tu proveedor confiable de equipos médicos en Tarapoto. Catálogo completo de materiales para laboratorio clínico, 
+                equipos de diagnóstico, mobiliario médico para consultorios y productos de ortopedia de calidad garantizada.
               </p>
               <div className="hero-stats" aria-label="Resumen del catálogo">
                 <div className="stat-card">
