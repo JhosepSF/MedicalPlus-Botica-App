@@ -314,3 +314,41 @@ html, body, #root { height: 100%; margin: 0; font-family: ui-sans-serif, system-
     justify-content: center;
   }
 }
+
+/* ===== SOBRE NOSOTROS ===== */
+.about-section {
+  background: #ffffff;
+  border: 1px solid #e3edf7;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(15, 76, 129, 0.06);
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* título */
+.about-title {
+  margin-bottom: 12px;
+  font-size: 24px;
+  color: #0b3a62;
+  position: relative;
+}
+
+/* línea decorativa debajo del título */
+.about-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #0f4c81;
+  margin: 8px auto 0;
+  border-radius: 2px;
+}
+
+/* texto */
+.about-text {
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 15px;
+  color: #4b5a6a;
+  line-height: 1.7;
+}

@@ -165,9 +165,9 @@ export function PanelPrincipal() {
         </section>
 
         {/* Sobre nosotros */}
-        <section className="app-container seccion">
-          <h2>Sobre MedicalPlus Botica</h2>
-          <p>
+        <section className="app-container seccion about-section">
+          <h2 className="about-title">Sobre MedicalPlus Botica</h2>
+          <p className="about-text">
             MedicalPlus Botica es una tienda especializada en equipos médicos, mobiliario clínico,
             materiales de laboratorio y productos de ortopedia en Tarapoto. Atendemos a clínicas,
             consultorios, profesionales de la salud y público en general, brindando atención rápida
