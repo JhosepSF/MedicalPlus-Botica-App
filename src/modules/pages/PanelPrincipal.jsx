@@ -142,7 +142,7 @@ export function PanelPrincipal() {
         <section className="hero">
           <div className="app-container hero-inner">
             <div className="hero-copy">
-              <h1>Equipos y suministros médicos en Tarapoto - MedicalPlus Botica</h1>
+              <h1>MedicalPlus Botica: equipos y suministros médicos en Tarapoto</h1>
               <p>
                 MedicalPlus Botica, tu proveedor confiable de equipos médicos en Tarapoto. Catálogo completo de materiales para laboratorio clínico, 
                 equipos de diagnóstico, mobiliario médico para consultorios y productos de ortopedia de calidad garantizada.
@@ -162,6 +162,17 @@ export function PanelPrincipal() {
               <img src="/Img/equipos.png" alt="" className="hero-illustration" />
             </div>
           </div>
+        </section>
+
+        {/* Sobre nosotros */}
+        <section className="app-container seccion">
+          <h2>Sobre MedicalPlus Botica</h2>
+          <p>
+            MedicalPlus Botica es una tienda especializada en equipos médicos, mobiliario clínico,
+            materiales de laboratorio y productos de ortopedia en Tarapoto. Atendemos a clínicas,
+            consultorios, profesionales de la salud y público en general, brindando atención rápida
+            y consulta de disponibilidad por WhatsApp.
+          </p>
         </section>
 
         {/* CATEGORÍAS */}
@@ -211,7 +222,7 @@ export function PanelPrincipal() {
                   }}
                 >
                   <div className="product-img">
-                    <img src={buildImageSrc(categoria.folder, producto.archivo)} alt={producto.nombre} />
+                    <img src={buildImageSrc(categoria.folder, producto.archivo)} alt={`${producto.nombre} en MedicalPlus Botica, Tarapoto`} />
                   </div>
                   <div className="product-body">
                     <h3 className="product-title">{producto.nombre}</h3>
@@ -265,6 +276,64 @@ export function PanelPrincipal() {
             </div>
           </div>
         )}
+
+        {/* FOOTER / CONTACTO */}
+        <section className="footer-seo">
+          <div className="footer-bar">
+            <div className="app-container footer-bar-inner">
+              <div className="footer-top">
+                <h2 className="footer-title">MedicalPlus Botica en Tarapoto</h2>
+
+                <p className="footer-desc">
+                  En <strong>MedicalPlus Botica</strong> ofrecemos equipos médicos, materiales de laboratorio,
+                  mobiliario clínico y productos de ortopedia en Tarapoto.
+                </p>
+              </div>
+
+              <div className="footer-grid-2">
+                <div className="footer-block">
+                  <h3>📍 Ubicación</h3>
+                  <p>JR. Miguel Grau #501</p>
+                  <p>Tarapoto, San Martín - Perú</p>
+                </div>
+
+                <div className="footer-block">
+                  <h3>📧 Contacto</h3>
+                  <p>
+                    <a href="mailto:mdelgadoorbe@gmail.com">
+                      mdelgadoorbe@gmail.com
+                    </a>
+                  </p>
+                </div>
+              </div>
+
+              <div className="footer-bottom">
+                <div className="footer-left">
+                  © {new Date().getFullYear()} <strong>MedicalPlus Botica</strong>
+                </div>
+
+                <div className="footer-right">
+                  <a
+                    className="btn footer-btn"
+                    href="https://wa.me/51947617365"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    WhatsApp 947 617 365
+                  </a>
+                  <a
+                    className="btn footer-btn"
+                    href="https://wa.me/51942492716"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    WhatsApp 942 492 716
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   );
